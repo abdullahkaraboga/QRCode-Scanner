@@ -14,6 +14,7 @@
 		7BAD792B29E49B4700EEC923 /* QRCodeScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAD792A29E49B4700EEC923 /* QRCodeScannerTests.swift */; };
 		7BAD793529E49B4700EEC923 /* QRCodeScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAD793429E49B4700EEC923 /* QRCodeScannerUITests.swift */; };
 		7BAD793729E49B4700EEC923 /* QRCodeScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAD793629E49B4700EEC923 /* QRCodeScannerUITestsLaunchTests.swift */; };
+		7BAD794529E4A10C00EEC923 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAD794429E4A10B00EEC923 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7BAD793029E49B4700EEC923 /* QRCodeScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAD793429E49B4700EEC923 /* QRCodeScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerUITests.swift; sourceTree = "<group>"; };
 		7BAD793629E49B4700EEC923 /* QRCodeScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BAD794429E4A10B00EEC923 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		7BAD791829E49B4300EEC923 /* QRCodeScanner */ = {
 			isa = PBXGroup;
 			children = (
+				7BAD794329E4A0DC00EEC923 /* View */,
 				7BAD791929E49B4300EEC923 /* QRCodeScannerApp.swift */,
 				7BAD791B29E49B4300EEC923 /* ContentView.swift */,
 				7BAD791D29E49B4600EEC923 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				7BAD793629E49B4700EEC923 /* QRCodeScannerUITestsLaunchTests.swift */,
 			);
 			path = QRCodeScannerUITests;
+			sourceTree = "<group>";
+		};
+		7BAD794329E4A0DC00EEC923 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BAD794429E4A10B00EEC923 /* ScannerView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BAD794529E4A10C00EEC923 /* ScannerView.swift in Sources */,
 				7BAD791C29E49B4300EEC923 /* ContentView.swift in Sources */,
 				7BAD791A29E49B4300EEC923 /* QRCodeScannerApp.swift in Sources */,
 			);
